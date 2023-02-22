@@ -1,0 +1,2 @@
+[workspace]
+members = ["packet-filter", "packet-filter-common", "xtask"]
