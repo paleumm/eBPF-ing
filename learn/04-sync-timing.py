@@ -36,9 +36,9 @@ print("Tracing for quick sync's... Ctrl-C to end")
 
 start = 0
 while 1:
-    (task, pid, cpu, flags, ts, msg) = b.trace_fields()
+    (task, pid, cpu, flags, ts, ms) = b.trace_fields()
     if start == 0:
         start = ts
 
     ts = ts - start
-    print("At time %.2f s: multiple syncs detected, last %s ms ago" % (ts, msg))
+    print("At time %.2f s: multiple syncs detected, last %s ms ago" % (ts, ms))
