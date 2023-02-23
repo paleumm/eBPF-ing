@@ -1,3 +1,0 @@
-{
-  "rust-analyzer.linkedProjects": ["Cargo.toml", "packet-filter-ebpf/Cargo.toml"]
-}
