@@ -1,3 +1,5 @@
+# nir
+
 from bcc import BPF
 
 prog = '''

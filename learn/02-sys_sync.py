@@ -1,3 +1,5 @@
+# nir
+
 from bcc import BPF
 
 print('Tracing sys_sync()... Ctrl-C to end')
