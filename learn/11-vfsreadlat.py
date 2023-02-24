@@ -43,4 +43,4 @@ while (1):
 	b["dist"].print_log2_hist("usecs")
 	b["dist"].clear()
 	if do_exit:
-		exit()
+	    exit()
