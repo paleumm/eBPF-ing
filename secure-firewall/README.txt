@@ -1,4 +1,4 @@
 Secure Firewall
 ---------------
 
-Software firewall that going to reject all packet coming through the network.
+Software firewall that going to drop all packet coming through the network.
